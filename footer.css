@@ -1,0 +1,70 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+    width: 45%;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-left ul, .footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left li, .footer-right li {
+    margin-bottom: 5px;
+}
+
+.footer-right img {
+    float: right;
+}
+
+.footer-left a, .footer-right a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.footer-left a:hover, .footer-right a:hover {
+    text-decoration: underline;
+}
+
+/* Scrollbar Customization */
+#postcontainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+#postcontainer::-webkit-scrollbar-track {
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+#postcontainer::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    border: 3px solid #f4f4f4;
+}
+
+#postcontainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#postcontainer {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f4f4f4;
+}

@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #14171a; /* Dark background */
+    color: #ffffff; /* Light text color */
+}
+
+/* Body container and layout */
+#bodycontainer {
+    max-width: 600px; /* Adjusted width for a more minimalistic look */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Forms */
+form {
+    background-color: #1e2025; /* Dark background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+form h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2b2d32; /* Dark border for textarea */
+    background-color: #1e2025; /* Dark background for textarea */
+    color: #ffffff; /* Light text for textarea */
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2b2d32; /* Dark border for input fields */
+    background-color: #1e2025; /* Dark background for inputs */
+    color: #ffffff; /* Light text for inputs */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #1da1f2; /* Twitter blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d95e8; /* Lighter Twitter blue */
+}
+img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    margin-top: 10px;
+}

@@ -1,0 +1,211 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+#bodycontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.like-btn .icon {
+    stroke: #e0245e;
+    fill: none;
+}
+
+.liked-btn .icon {
+    fill: #e0245e;
+    stroke: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke-width: 2;
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+.like-btn.active .icon,
+.like-btn:hover .icon {
+    fill: #e0245e; /* Red for active/hover */
+    stroke: none;
+}
+
+.liked-btn:hover .icon {
+    fill: none; /* Red for active/hover */
+    stroke: #e0245e;
+}
+
+#postcontainer {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.post-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.post-description {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.btndiv {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btndiv:hover {
+    background-color: #e64a19;
+}
+
+/* Comments Section */
+.comments-section {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.comments-section h2 {
+    margin-top: 0;
+    color: #e0e0e0;
+}
+
+.comment {
+    background-color: #2c2c2c; /* Different background for comments */
+    border-radius: 4px;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment:last-of-type {
+    border-bottom: none;
+}
+
+.comment p {
+    margin: 0;
+    color: #e0e0e0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #e0e0e0;
+    margin-top: 10px;
+}
+
+textarea::placeholder {
+    color: #888;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ff5722;
+}
+
+.comments-section form button {
+    background-color: #ff5722;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.comments-section form button:hover {
+    background-color: #e64a19;
+}
+
+/* Align icon with like count */
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.like-count {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+/* Align avatar and username */
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Space between avatar and username */
+}
+
+.username {
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+/* Button Styles */
+button {
+    background-color: #ff5722; /* Primary color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff5722; /* Outline for focus state */
+}

@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #14171a; 
+    color: #ffffff; 
+}
+
+
+#bodycontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.team-section {
+    background-color: #1e2025; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.team-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1da1f2; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border-bottom: 1px solid #2b2d32; 
+}
+
+.table th {
+    background-color: #2b2d32; 
+    color: #e1e8ed;
+}
+
+.table td {
+    background-color: #1e2025; 
+}
+
+.add-player-btn, .add-match-btn {
+    background-color: #1da1f2; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.add-player-btn:hover, .add-match-btn:hover {
+    background-color: #0d95e8; 
+.player-search-input, .user-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #2b2d32; 
+    background-color: #1e2025; 
+    color: #ffffff; 
+    box-sizing: border-box;
+    appearance: none; 
+}
+
+.user-select {
+    background-color: #1e2025; 
+    color: #ffffff; 
+    border: 1px solid #2b2d32;
+    padding: 10px;
+    display: none;
+}
+
+.autocomplete-results {
+    background-color: #1e2025; 
+    border: 1px solid #2b2d32; 
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    width: calc(100% - 22px); 
+    z-index: 1000;
+}
+
+.autocomplete-results div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.autocomplete-results div:hover {
+    background-color: #2b2d32; 
+}
+
+label {
+    font-size: 14px;
+    color: #e1e8ed; 
+}
+
+
+.player-row button {
+    background-color: #e0245e;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.player-row button:hover {
+    background-color: #c8102e; 
+}
+}
